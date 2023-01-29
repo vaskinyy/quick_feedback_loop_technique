@@ -1,0 +1,14 @@
+{
+  "name": "npm-hello-world",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node helloworld"
+  },
+  "dependencies": {
+    "jest": "^29.4.1",
+    "send": "^0.16.2"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
