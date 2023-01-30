@@ -1,0 +1,12 @@
+-- https://www.programiz.com/sql/online-compiler/
+
+-- run the query
+SELECT c.last_name, count(*) FROM Customers as c
+JOIN Orders as o where c.customer_id == o.customer_id
+GROUP By c.last_name
+ORDER BY COUNT(*) DESC;
+
+-- change the query
+SELECT c.last_name, sum(o.amount) FROM Customers as c
+JOIN Orders as o where c.customer_id == o.customer_id
+GROUP By c.last_name;
