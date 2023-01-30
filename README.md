@@ -5,7 +5,7 @@ is that you shorten the feedback loop and get a result of the execution immediat
 an API call, a CLI command, a function, an individual statement. This is such a simple and universal approach that 
 it can be applied to many technologies.
 
-This repository is mainly a collection of example that demonstrate the usage of the technique. It is mainly Python-based, yet,
+This repository is a collection of examples that demonstrate the usage of the technique. It is mainly Python-based, yet,
 there are other technologies as well.
 
 ## Running Python samples locally
